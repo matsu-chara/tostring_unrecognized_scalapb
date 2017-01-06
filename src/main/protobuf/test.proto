@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package chara.matsu.test;
+
+message FooResponse {
+  enum FooStatus {
+    OK = 0;
+  }
+
+  FooStatus foo_status = 1;
+}
